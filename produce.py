@@ -9,7 +9,7 @@ def kafka_producer():
     producer = KafkaProducer(bootstrap_servers=['18.234.23.127:9116'],
                              value_serializer=lambda x: dumps(x).encode('utf-8'))
 
-    API_KEY = "b0d344db7a15d100a2abb5dc7e9bad7e"  # MY API key
+    API_KEY = ""  # MY API key
     cities = ["New York", "Los Angeles", "Miami"]
 
     t_end = time.time() + 60 * 1
