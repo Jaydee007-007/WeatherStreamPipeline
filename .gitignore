@@ -1,0 +1,30 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Data files
+*.json
+*.csv
+*.pkl
+
+# AWS
+*.pem
+credentials
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Course materials
+*.pdf
+*.docx
+*.pptx
